@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: fr-bold;
+    src: url(/fonts/futurama/fr-bold.ttf);
+
+}
+
+body {
+    background-color: #333;
+    font-size: 4rem;  
+}
+
+path {
+    fill: transparent;
+}
+
+text {
+    font-family: fr-bold;
+    text-shadow: 8px 8px #ffe603, -8px -8px #ffe603, 8px -8px #ffe603, -8px 8px #ffe603;
+}
