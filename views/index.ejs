@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futurama Quotes API</title>
+</head>
+<body>
+    <h1>I see what's going on here.</h1>
+    <form action="/quotes" method="POST">
+        <input type="text" placeholder="name" name="name">
+        <input type="text" placeholder="quote" name="quote">
+        <button type="submit">Shut up baby, I know it.</button>
+    </form>
+    <h2>Quotes</h2>
+    <ul class="quotes">
+        <% for(var i = 0; i < quotes.length; i++) {%>
+            <li class="quote">
+                <span><%= quotes[i].name %></span>
+                <span><%= quotes[i].quote %></span>
+            </li>
+            <% } %>
+    </ul>
+    <div>
+        <h2>Hahahahaha. Oh wait you’re serious. Let me laugh even harder.</h2>
+        <button id="update-button">Hey sexy mama, wanna kill all humans?</button>
+    </div>
+    <div>
+        <h2>Bender Shouldn't Be Allowed On Television</h2>
+        <button id="delete-button">I’m so embarrassed. I wish everybody else was dead.</button>
+    </div>
+    <div id="message"></div>
+    <script src="/main.js"></script>
+</body>
+</html>
