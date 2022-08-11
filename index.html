@@ -8,23 +8,37 @@
     <title>Futurama Quotes API</title>
 </head>
 <body>
-    <div class="logo">
-        <svg viewBox="0 15 500 500">
-            <defs>
-                <linearGradient id="myGradient" gradientTransform="rotate(90)">
-                  <stop offset="1%"  stop-color="#500100" />
-                  <stop offset="99%" stop-color="#dd0002" />
-                </linearGradient>
-            </defs>
-            <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
-            <text x="85">
-              <textPath xlink:href="#curve" startOffset=”50%” fill="url('#myGradient')">
-                FUTURAMA
-              </textPath>
-            </text>
 
-        </svg>        
-    </div>
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>Characters</li>
+      <li>Episodes</li>
+    </ul>
+  </nav>
+
+  <header>
+    <section class="logo">
+      <img src="images/futurama-logo.png" alt="Futurama logo in an arc colored in red with a gold border">
+    </section>
+    <section class="searchBar">
+
+    </section>
+  </header>
+
+  <main>
+    <h2 class="preQuote"></h1>
+    <h2 class="mainQuote"></h1>
+    <h2 class="postQuote"></h1>
+  </main>
+  
+  <section>
+    <img src="" alt="preCharater">
+    <img src="" alt="mainCharacter">
+    <img src="" alt="postCharacter">
+  </section>
+
+
     <!-- <h1> Shut up baby, I know it. </h1>
     <form action="/quotes" method="POST">
         <input type="text" placeholder="name" name="name">

@@ -9,15 +9,15 @@ html {
 }
 
 body {
-    background-color: #333;
-    font-size: 4rem;  
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 2fr 5fr;
 }
 
-path {
-    fill: transparent;
+.logo img {
+    width: 60%;
+    margin: 0 20%;
 }
 
-text {
-    font-family: fr-bold;
-    text-shadow: 8px 8px #ffe603, -8px -8px #ffe603, 8px -8px #ffe603, -8px 8px #ffe603;
-}
