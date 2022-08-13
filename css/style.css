@@ -14,6 +14,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 2fr 5fr;
+    background-color: lightblue;
 }
 
 .logo img {
@@ -21,3 +22,13 @@ body {
     margin: 0 20%;
 }
 
+.characters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.characters img {
+    width: 33%;
+    height: 100%;
+    margin: auto;
+}
